@@ -22,6 +22,83 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+<style>
+  .testimonial{ margin: 0 20px 50px; }
+.testimonial .pic{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-profile{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #5d7aa7;
+}
+.testimonial .description{
+    padding: 20px 22px;
+    background: #bd5d38;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: #bd5d38 transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+.testimonial .description:after{
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    opacity: 0.8;
+    background: #fff;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    font-size: 20px;
+    color: #bd5d38;
+}
+.owl-next:before{ content: "\f054"; }
+</style>
 </head>
 
 <body id="page-top">
@@ -68,12 +145,12 @@
   </nav>
 
   <div class="container-fluid p-0">
-  	<div class="actions">
+    <div class="actions">
                 <a class="text-primary" href="mailto:sonijigar94@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
                 <a class="text-primary" target="_blank" href="file/Jigar Soni-QA-Resume.pdf"><i class="fa fa-user" aria-hidden="true"></i>View Resume</a>
             </div><!--//actions-->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-    	
+      
       <div class="w-100">
         <h1 class="mb-0">Jigar
           <span class="text-primary">Soni</span>
@@ -113,8 +190,8 @@
             <p>Current Working with one of the client in Travel Domain one of their product migrating from windows (legacy) to Web version(upgrading the Tech-stack). Building from the scratch using similar logic and functionality with required upgradation. Involving Testing that product Manually and Automate the different user Journeys.</p>
             <p class="mb-0"> Tech-Stack Protractor - Cucumber - JavaScript - Chai - Git - BitBucket.</p>
             <p class="mb-0"> Tech-Stack Cucumber - Java - TestNG - Git - BitBucket.</p>
-            <p class="mb-0"> Inovlment in Estimation, Release, Regression, Confidence, Smoke, UAT Testing activity.</p>   
-			<p>Involving Agile Sprint Activities like Backlog Creation, Grooming, Planning, Retrospective, Showcasing meeting and taking call with the stack holders for status updating, doubts and blocker.</p>
+            <p class="mb-0"> Involvement in Estimation, Release, Regression, Confidence, Smoke, UAT Testing activity.</p>   
+      <p>Involving Agile Sprint Activities like Backlog Creation, Grooming, Planning, Retrospective, Showcasing meeting and taking call with the stack holders for status updating, doubts and blocker.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Apr 2019 - Present</span>
@@ -344,7 +421,142 @@
       <div class="w-100">
         <h2 class="mb-5">Testimonials</h2>
 
-        <img src="img/testimonials.jpg" alt="" height="900" width="800">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/bhavesh.jpeg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Bhavesh Panchal</h3>
+                        <span class="post">QA - QA Ninjas</span>
+                    </div>
+                    <p class="description">
+                        I worked with jigar while he was working with QaNinjas. Jigar is a hardworking, very diligent QA professional. He has attention to details.His bugreports were very good and precise with the environment detailslike browser info, branch details, OS used, steps to reproduce supported with a very well prepared screenshots. He was verygood at finding all kinds of bugs even the edge case scenario bugs. He also helped writing automation on several projects. I was very happy with his quality of work. He used to happily accept the challenges. I'd love to work with Jigar again if given the opportunity. He can be an asset to any organization.
+                    </p>
+                </div>
+                 <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/arbaz.jpeg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Arbaz Khan</h3>
+                        <span class="post">QA - QA Ninjas</span>
+                    </div>
+                    <p class="description">
+                        Jigar is self motivated person and hard working professional with can-do attitude.
+                        He worked in multiple projects and helped in different colleagues with automation framework stuff and issues. No matter how busy he is, he always help me and all of other with smile and motivate and guide for further task as well. He leverage his previous experience to build automation framework. He is enthusiastic about new projects and always looking for enhancements to the automation framework. Working with Jigar is always pleasure and ready to work with him again. He is great asset to any organisation.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/saiyam.jpeg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Saiyam Kapoor</h3>
+                        <span class="post">SSE - Vagaro</span>
+                    </div>
+                    <p class="description">
+                        It was fantastic to work with Jigar. He is capable to adapt to any project module quickly and also executed test cases independently. He always has positive attitude towards work.
+                    </p>
+                </div>
+                 <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/dharmesh.jpeg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Dharmesh Patil</h3>
+                        <span class="post">SE - Vagaro</span>
+                    </div>
+                    <p class="description">
+                        I have witnessed the exceptional contributions that Jigar has made to company. Not only is he an excellent and hard-working employee, but he has dedicated himself about work. Jigar is truly special for his compassion and commitment to helping others.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/sumit.jpeg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Sumit Sain</h3>
+                        <span class="post">QA - Cimcon</span>
+                    </div>
+                    <p class="description">
+                        Jigar is quite talented and smart working employee, he knows the solution for any problem in software basis, he always comes with new technology and new tools to learn.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/arpan.jpeg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Arpan Shah</h3>
+                        <span class="post">SSE - Vagaro</span>
+                    </div>
+                    <p class="description">
+                        He is a very good QC. Having focus on work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/img-1.jpg" alt=""></div>
+                            <h3 class="title">williamson</h3>
+                            <span class="post">Web Developer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/img-2.jpg" alt=""></div>
+                            <h3 class="title">Kristina</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/img-3.jpg" alt=""></div>
+                            <h3 class="title">Steve Thomas</h3>
+                            <span class="post">Web Developer</span>
+                        </div>
+                    </div>
+          <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/img-3.jpg" alt=""></div>
+                            <h3 class="title">Steve Thomas</h3>
+                            <span class="post">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- <img src="img/testimonials.jpg" alt="" height="900" width="800"> -->
 
       </div>
     </section>
@@ -392,9 +604,13 @@
    
             
   </div>
-
+ 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
@@ -402,6 +618,20 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
+</script>
 
 </body>
 
